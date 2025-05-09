@@ -1,4 +1,4 @@
-# TGRG
+# DDGIP
 
 The code of the paper: DDGIP:Radiology Report Generation Through Disease Description Graph and Informed Prompting
 
