@@ -13,11 +13,7 @@ class Tokenizer(object):
         else:
             self.clean_report = self.clean_report_mimic_cxr
         self.ann = json.loads(open(self.ann_path, 'r').read())
-        #self.token2idx, self.idx2token = self.create_vocabulary()
-        with open('/media/user/a04954f8-f2f8-41ca-b4e9-4d07d1603697/home/physionet.org/plan3/HardKG1FT1/tokenization.json', "r", encoding="utf-8") as f:
-            tokenization = json.load(f)
-        self.token2idx = tokenization["token2idx"]
-        self.idx2token = tokenization["idx2token"]
+        self.token2idx, self.idx2token = self.create_vocabulary()
 
     def create_vocabulary(self):
         total_tokens = []
