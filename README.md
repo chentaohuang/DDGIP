@@ -1,6 +1,6 @@
 # DDGIP
 
-The code of the paper: DDGIP:Radiology Report Generation Through Disease Description Graph and Informed Prompting
+[2025 NAACL findings] DDGIP:Radiology Report Generation Through Disease Description Graph and Informed Prompting
 
 
 ## The file of DDG is provided in /DDG
